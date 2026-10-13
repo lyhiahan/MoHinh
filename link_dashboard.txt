@@ -4,32 +4,20 @@
 
 1. ĐƯỜNG DẪN DASHBOARD ONLINE (CHÍNH THỨC):
 --------------------------------------------------------------------------------
-👉 Link Dashboard Online:
-https://lyhiahan-mohinh-app-fy7kmr.streamlit.app/
+- Streamlit Dashboard: https://lyhiahan-mohinh-app-fy7kmr.streamlit.app/
+- GitHub Repository:   https://github.com/lyhiahan/MoHinh
 
-- Repository GitHub: https://github.com/lyhiahan/MoHinh
-(Thầy cô có thể click trực tiếp vào link trên để xem và tương tác Dashboard trên trình duyệt)
+(Thầy cô có thể click trực tiếp vào đường link trên để xem và tương tác với Dashboard trên trình duyệt web mà không cần cài đặt môi trường)
 
 
-2. ĐƯỜNG DẪN TRUY CẬP TRÊN TRÌNH DUYỆT (LOCAL NỘI BỘ):
+2. KHỞI CHẠY CỤC BỘ TRÊN MÁY TÍNH (NẾU CHẤM OFFLINE):
 --------------------------------------------------------------------------------
-Sau khi khởi động ứng dụng trên máy tính cá nhân, truy cập:
-http://localhost:8501
+- Cài đặt thư viện:
+    pip install -r requirements.txt
 
-
-3. HƯỚNG DẪN KHỞI CHẠY TRÊN MÁY TÍNH (NẾU CHẤM OFFLINE):
---------------------------------------------------------------------------------
-Bước 1: Mở Terminal (CMD / PowerShell) tại thư mục bài làm.
-Bước 2: Chạy lệnh sau để khởi động Dashboard:
-
+- Khởi chạy Dashboard:
     streamlit run app.py
 
-(Hệ thống sẽ tự động bật trình duyệt và hiển thị giao diện Dashboard)
-
-
-4. TRƯỜNG HỢP MÁY CHƯA CÀI ĐẶT CÁC THƯ VIỆN CẦN THIẾT:
---------------------------------------------------------------------------------
-Nếu máy báo thiếu thư viện, chạy lệnh sau:
-
-    pip install -r requirements.txt
+- Địa chỉ truy cập Local:
+    http://localhost:8501
 ================================================================================

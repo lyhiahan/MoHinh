@@ -91,6 +91,8 @@ def get_data():
 
 df_data = get_data()
 n_total = len(df_data)
+n_pass = int((df_data['qua_mon'] == 1).sum())
+n_fail = int((df_data['qua_mon'] == 0).sum())
 
 @st.cache_resource
 def train_model(df):
@@ -123,7 +125,7 @@ def set_tau_val(val):
     st.session_state.tau = float(val)
 
 st.markdown('<div class="main-title">Từ xác suất dự báo đến quyết định</div>', unsafe_allow_html=True)
-st.markdown(f'<div class="main-sub">Dữ liệu mô phỏng gồm {n_total} sinh viên (538 Đạt, 62 Rớt), phục vụ minh họa Logistic Regression và tác động của ngưỡng phân loại; không đại diện cho hiệu quả dự kiến trên sinh viên thực tế.</div>', unsafe_allow_html=True)
+st.markdown(f'<div class="main-sub">Dữ liệu mô phỏng gồm {n_total} sinh viên ({n_pass} Đạt, {n_fail} Rớt), phục vụ minh họa Logistic Regression và tác động của ngưỡng phân loại; không đại diện cho hiệu quả dự kiến trên sinh viên thực tế.</div>', unsafe_allow_html=True)
 
 col_charts, col_ctrl = st.columns([2.2, 1.0])
 

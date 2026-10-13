@@ -2,32 +2,33 @@
           THÔNG TIN TRUY CẬP VÀ KHỞI CHẠY DASHBOARD HỌC MÁY
 ================================================================================
 
-1. ĐƯỜNG DẪN TRUY CẬP TRÊN TRÌNH DUYỆT (LOCAL):
+1. ĐƯỜNG DẪN DASHBOARD ONLINE (STREAMLIT COMMUNITY CLOUD):
 --------------------------------------------------------------------------------
-Sau khi khởi động ứng dụng, truy cập vào đường dẫn:
+- Repository GitHub: https://github.com/lyhiahan/MoHinh
+- Link Dashboard Online chính thức:
+  https://mohinh-lyhiahan.streamlit.app
+  (Sau khi bạn bấm Deploy trên Streamlit Cloud, dán chính xác URL của bạn vào đây nếu bạn đổi tên URL khác)
+
+
+2. ĐƯỜNG DẪN TRUY CẬP TRÊN TRÌNH DUYỆT (LOCAL NỘI BỘ):
+--------------------------------------------------------------------------------
+Sau khi khởi động ứng dụng trên máy tính, truy cập:
 http://localhost:8501
 
 
-2. HƯỚNG DẪN KHỞI CHẠY TRÊN MÁY TÍNH (DÀNH CHO THẦY CÔ):
+3. HƯỚNG DẪN KHỞI CHẠY TRÊN MÁY TÍNH (DÀNH CHO THẦY CÔ NẾU CHẤM OFFLINE):
 --------------------------------------------------------------------------------
-Bước 1: Mở Terminal (CMD / PowerShell) tại thư mục chứa bài làm này.
+Bước 1: Mở Terminal (CMD / PowerShell) tại thư mục bài làm.
 Bước 2: Chạy lệnh sau để khởi động Dashboard:
 
     streamlit run app.py
 
-(Hệ thống sẽ tự động bật trình duyệt và chuyển đến trang Dashboard)
+(Hệ thống sẽ tự động bật trình duyệt và hiển thị giao diện Dashboard)
 
 
-3. TRƯỜNG HỢP MÁY CHƯA CÀI ĐẶT CÁC THƯ VIỆN CẦN THIẾT:
+4. TRƯỜNG HỢP MÁY CHƯA CÀI ĐẶT CÁC THƯ VIỆN CẦN THIẾT:
 --------------------------------------------------------------------------------
-Nếu máy báo thiếu thư viện, chỉ cần chạy lệnh sau trước khi khởi động:
+Nếu máy báo thiếu thư viện, chạy lệnh sau:
 
-    pip install streamlit pandas numpy plotly scikit-learn
-
-
-================================================================================
-4. ĐƯỜNG DẪN DASHBOARD ONLINE (NẾU ĐÃ TRIỂN KHAI LÊN CLOUD):
---------------------------------------------------------------------------------
-Nếu sinh viên đã đưa app lên Streamlit Community Cloud, dán link truy cập online tại đây:
-[DÁN_LINK_ONLINE_TẠI_ĐÂY]
+    pip install -r requirements.txt
 ================================================================================

@@ -2,21 +2,22 @@
           THÔNG TIN TRUY CẬP VÀ KHỞI CHẠY DASHBOARD HỌC MÁY
 ================================================================================
 
-1. ĐƯỜNG DẪN DASHBOARD ONLINE (STREAMLIT COMMUNITY CLOUD):
+1. ĐƯỜNG DẪN DASHBOARD ONLINE (CHÍNH THỨC):
 --------------------------------------------------------------------------------
+👉 Link Dashboard Online:
+https://lyhiahan-mohinh-app-fy7kmr.streamlit.app/
+
 - Repository GitHub: https://github.com/lyhiahan/MoHinh
-- Link Dashboard Online chính thức:
-  https://mohinh-lyhiahan.streamlit.app
-  (Sau khi bạn bấm Deploy trên Streamlit Cloud, dán chính xác URL của bạn vào đây nếu bạn đổi tên URL khác)
+(Thầy cô có thể click trực tiếp vào link trên để xem và tương tác Dashboard trên trình duyệt)
 
 
 2. ĐƯỜNG DẪN TRUY CẬP TRÊN TRÌNH DUYỆT (LOCAL NỘI BỘ):
 --------------------------------------------------------------------------------
-Sau khi khởi động ứng dụng trên máy tính, truy cập:
+Sau khi khởi động ứng dụng trên máy tính cá nhân, truy cập:
 http://localhost:8501
 
 
-3. HƯỚNG DẪN KHỞI CHẠY TRÊN MÁY TÍNH (DÀNH CHO THẦY CÔ NẾU CHẤM OFFLINE):
+3. HƯỚNG DẪN KHỞI CHẠY TRÊN MÁY TÍNH (NẾU CHẤM OFFLINE):
 --------------------------------------------------------------------------------
 Bước 1: Mở Terminal (CMD / PowerShell) tại thư mục bài làm.
 Bước 2: Chạy lệnh sau để khởi động Dashboard:

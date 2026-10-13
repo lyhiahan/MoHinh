@@ -1,0 +1,33 @@
+================================================================================
+          THÔNG TIN TRUY CẬP VÀ KHỞI CHẠY DASHBOARD HỌC MÁY
+================================================================================
+
+1. ĐƯỜNG DẪN TRUY CẬP TRÊN TRÌNH DUYỆT (LOCAL):
+--------------------------------------------------------------------------------
+Sau khi khởi động ứng dụng, truy cập vào đường dẫn:
+http://localhost:8501
+
+
+2. HƯỚNG DẪN KHỞI CHẠY TRÊN MÁY TÍNH (DÀNH CHO THẦY CÔ):
+--------------------------------------------------------------------------------
+Bước 1: Mở Terminal (CMD / PowerShell) tại thư mục chứa bài làm này.
+Bước 2: Chạy lệnh sau để khởi động Dashboard:
+
+    streamlit run app.py
+
+(Hệ thống sẽ tự động bật trình duyệt và chuyển đến trang Dashboard)
+
+
+3. TRƯỜNG HỢP MÁY CHƯA CÀI ĐẶT CÁC THƯ VIỆN CẦN THIẾT:
+--------------------------------------------------------------------------------
+Nếu máy báo thiếu thư viện, chỉ cần chạy lệnh sau trước khi khởi động:
+
+    pip install streamlit pandas numpy plotly scikit-learn
+
+
+================================================================================
+4. ĐƯỜNG DẪN DASHBOARD ONLINE (NẾU ĐÃ TRIỂN KHAI LÊN CLOUD):
+--------------------------------------------------------------------------------
+Nếu sinh viên đã đưa app lên Streamlit Community Cloud, dán link truy cập online tại đây:
+[DÁN_LINK_ONLINE_TẠI_ĐÂY]
+================================================================================
